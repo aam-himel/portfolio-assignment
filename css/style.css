@@ -1,0 +1,134 @@
+/*
+    font-family: 'Raleway', sans-serif;
+    color-primary: #F8F9FC
+    heading-color-yellow: #FFDC00
+    heading-color: #01FF70
+    paragraph-color: #AAAAAA
+    call-to-action button color: #0074D9
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #555;
+    line-height: 1.5;
+}
+
+section {
+    height: 70vh;
+}
+
+p {
+    font-size: 1.8rem;
+    color: #464646;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.center-bg {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    display: inline;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    background-color: #0074D9;
+
+}
+
+.btn a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* .half-width {
+    width: 50%;
+} */
+
+/* ____ Header Section _____ */
+#header {
+    background-image: url(../images/header-bg.png);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-main {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.heading-name {
+    font-size: 6rem;
+    font-weight: 900;
+    color: #01FF70;
+    display: block;
+    letter-spacing: 1rem;
+    line-height: 1;
+}
+
+.heading-sub {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    padding: 1.6rem 1rem 1.6rem 0;
+}
+
+.header-left {
+    width: 50%;
+
+}
+
+.header-right {
+    width: 50%;
+}
+
+.header-right img {
+    width: 100%;
+}
+
+/* ____ Biography Section _____ */
+#biography {
+    background-image: url(../images/biography-bg.png);
+}
+
+
+/* ____ Latest Section _____ */
+#latest-work {
+    background-image: url(../images/latest-work-bg.png);
+}
+
+/* ____ Contact Me  Section _____ */
+#contact {}
+
+
+/* ____ Footer Section _____ */
+#footer {
+    background-image: url(../images/footer-bg.png);
+}
+
+.bg-dark {
+    background-color: #F8F9FC;
+}
