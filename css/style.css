@@ -1,10 +1,11 @@
 /*
     font-family: 'Raleway', sans-serif;
-    color-primary: #F8F9FC
+    color-primary: #555
     heading-color-yellow: #FFDC00
     heading-color: #01FF70
-    paragraph-color: #AAAAAA
+    paragraph-color: #464646
     call-to-action button color: #0074D9
+    extra color if necessary: #39CCCC
 */
 
 * {
@@ -24,9 +25,7 @@ body {
     line-height: 1.5;
 }
 
-section {
-    height: 70vh;
-}
+section {}
 
 p {
     font-size: 1.8rem;
@@ -38,27 +37,53 @@ p {
     margin: 0 auto;
 }
 
+.text-style {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    padding: 1.6rem 0px 1.6rem 0px;
+}
+
 .center-bg {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.btn {
+.left {
+    width: 50%;
+
+}
+
+.right {
+    width: 50%;
+}
+
+.padding-left {
+    padding: 1.6rem 0rem 1.6rem 5rem;
+}
+
+.padding-right {
+    padding: 1.6rem 1.6rem 1.6rem 0;
+}
+
+.btn:link,
+.btn:visited {
     display: inline;
+    text-decoration: none;
+    text-transform: uppercase;
     font-size: 1.8rem;
     font-weight: 600;
     padding: 1rem 2rem;
     border-radius: .5rem;
     background-color: #0074D9;
-
-}
-
-.btn a {
-    text-decoration: none;
-    text-transform: uppercase;
     color: white;
 }
+
+.btn:hover {
+    background-color: #0074d9ab;
+}
+
 
 /* .half-width {
     width: 50%;
@@ -66,6 +91,7 @@ p {
 
 /* ____ Header Section _____ */
 #header {
+    height: 80vh;
     background-image: url(../images/header-bg.png);
 }
 
@@ -93,16 +119,7 @@ p {
 .heading-sub {
     font-size: 1.8rem;
     margin-bottom: 3rem;
-    padding: 1.6rem 1rem 1.6rem 0;
-}
-
-.header-left {
-    width: 50%;
-
-}
-
-.header-right {
-    width: 50%;
+    padding: 1.6rem 1.6rem 1.6rem 0;
 }
 
 .header-right img {
@@ -111,12 +128,34 @@ p {
 
 /* ____ Biography Section _____ */
 #biography {
+    height: 80vh;
     background-image: url(../images/biography-bg.png);
 }
+
+.biography {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-biography {
+    margin-right: 2rem;
+}
+
+.left-biography img {
+    width: 100%;
+}
+
+.biography-heading {
+    font-size: 4rem;
+    margin-bottom: 1.6rem;
+}
+
 
 
 /* ____ Latest Section _____ */
 #latest-work {
+    height: 50vh;
     background-image: url(../images/latest-work-bg.png);
 }
 
