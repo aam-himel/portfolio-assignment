@@ -44,6 +44,10 @@ p {
     padding: 1.6rem 0px 1.6rem 0px;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .center-bg {
     background-position: center;
     background-size: cover;
@@ -89,7 +93,10 @@ p {
     width: 50%;
 } */
 
+
+
 /* ____ Header Section _____ */
+
 #header {
     height: 80vh;
     background-image: url(../images/header-bg.png);
@@ -126,7 +133,10 @@ p {
     width: 100%;
 }
 
+
+
 /* ____ Biography Section _____ */
+
 #biography {
     height: 80vh;
     background-image: url(../images/biography-bg.png);
@@ -153,10 +163,42 @@ p {
 
 
 
-/* ____ Latest Section _____ */
+/* __________ Latest Work Section _____ */
+
 #latest-work {
     height: 50vh;
     background-image: url(../images/latest-work-bg.png);
+}
+
+.latest-work {}
+
+.latest-work-heading {
+    font-size: 4rem;
+    margin: 6rem 0px;
+}
+
+.latest-work-box {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.latest-work-box img {
+    width: 100%;
+}
+
+.work-1 {
+    padding: 0 1rem;
+}
+
+.work-2 {
+    padding: 0 1rem;
+}
+
+.work-3 {
+    padding: 0 1rem;
 }
 
 /* ____ Contact Me  Section _____ */
