@@ -25,7 +25,6 @@ body {
     line-height: 1.5;
 }
 
-section {}
 
 p {
     font-size: 1.8rem;
@@ -170,7 +169,6 @@ p {
     background-image: url(../images/latest-work-bg.png);
 }
 
-.latest-work {}
 
 .latest-work-heading {
     font-size: 4rem;
@@ -201,15 +199,76 @@ p {
     padding: 0 1rem;
 }
 
-/* ____ Contact Me  Section _____ */
-#contact {}
 
-
-/* ____ Footer Section _____ */
-#footer {
+/* ____ Client Section _____ */
+#client {
+    height: 90vh;
     background-image: url(../images/footer-bg.png);
 }
 
-.bg-dark {
-    background-color: #F8F9FC;
+.client-heading {
+    font-size: 4rem;
+    margin: 6rem 0px;
+}
+
+.comment-box-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comment-box {
+    margin: 4rem 0;
+    padding: 4rem 2rem;
+    /* background-color: cadetblue; */
+    height: 30rem;
+    width: 33.3%;
+}
+
+
+.comment-heading {
+    font-size: 2.4rem;
+}
+
+
+.comment-box p.comment {
+    padding: 2rem 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+
+}
+
+.comment-heading-sub {
+    font-size: 1.6rem;
+    padding-bottom: 2rem;
+    font-weight: 700;
+}
+
+/* contact form */
+.contact-box {
+    height: 20vh;
+    width: 50%;
+    background: linear-gradient(to right bottom, #39CCCC, #a79000cc);
+    border-radius: 2rem;
+}
+
+.contact-text {
+    margin: 0;
+    padding-top: 3rem;
+    letter-spacing: 2px;
+    color: white;
+}
+
+p.email {
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: white;
+}
+
+/* ____ Footer Section _____ */
+footer {
+    height: 8vh;
+    padding-bottom: 3rem;
+    font-weight: 500;
 }
