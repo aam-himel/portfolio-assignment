@@ -208,7 +208,7 @@ p {
 
 .client-heading {
     font-size: 4rem;
-    margin: 6rem 0px;
+    margin: 4rem 0px;
 }
 
 .comment-box-wrapper {
@@ -218,8 +218,8 @@ p {
 }
 
 .comment-box {
-    margin: 4rem 0;
-    padding: 4rem 2rem;
+    margin: 2rem 0;
+    padding: 2rem 2rem;
     /* background-color: cadetblue; */
     height: 30rem;
     width: 33.3%;
@@ -248,9 +248,11 @@ p {
 .contact-box {
     height: 20vh;
     width: 50%;
-    background: linear-gradient(to right bottom, #39CCCC, #a79000cc);
+    background: linear-gradient(to right bottom, rgba(243, 5, 5, 0.712), rgba(5, 13, 85, 0.815));
     border-radius: 2rem;
+
 }
+
 
 .contact-text {
     margin: 0;
